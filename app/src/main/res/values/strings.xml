@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Humhub Demo Api</string>
+    <string name="action_settings">Settings</string>
+    <string name="login_login_text">Login</string>
+    <string name="login_password_hint">Password</string>
+    <string name="login_username_hint">Username</string>
+    <string name="error_no_internet">You are not connected to the internet.</string>
+    <string name="error_api">There was an error connecting to the API.</string>
+    <string name="error_general">An error has occurred. Please try again in a few moments.</string>
+    <string name="remember_me">Remember Username and Password</string>
+    <string name="directory">Directory</string>
+    <string name="posts">Posts</string>
+</resources>

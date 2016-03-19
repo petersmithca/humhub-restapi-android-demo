@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/humhubGrey">
+
+    <ImageView
+        android:id="@+id/main_menu_image"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="30dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/toptitle"
+        android:scaleType="center" />
+
+    <Button
+        android:id="@+id/main_menu_directory"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/directory"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/main_menu_posts"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:drawablePadding="10dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:paddingLeft="10dp"
+        android:text="@string/posts"
+        android:textSize="18sp" />
+</LinearLayout>

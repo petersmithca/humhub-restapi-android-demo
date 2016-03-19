@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- File created by the Android Action Bar Style Generator
+
+     Copyright (C) 2011 The Android Open Source Project
+     Copyright (C) 2012 readyState Software Ltd
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <style name="Theme.Humhubdemo" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionBarItemBackground">@drawable/selectable_background_humhubdemo</item>
+        <item name="popupMenuStyle">@style/PopupMenu.Humhubdemo</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Humhubdemo</item>
+        <item name="actionBarTabStyle">@style/ActionBarTabStyle.Humhubdemo</item>
+        <item name="actionDropDownStyle">@style/DropDownNav.Humhubdemo</item>
+        <item name="actionBarStyle">@style/ActionBar.Solid.Humhubdemo</item>
+        <item name="actionModeBackground">@drawable/cab_background_top_humhubdemo</item>
+        <item name="actionModeSplitBackground">@drawable/cab_background_bottom_humhubdemo</item>
+        <item name="actionModeCloseButtonStyle">@style/ActionButton.CloseMode.Humhubdemo</item>
+
+                <!-- Light.DarkActionBar specific -->
+        <item name="actionBarWidgetTheme">@style/Theme.Humhubdemo.Widget</item>
+
+    </style>
+
+    <style name="ActionBar.Solid.Humhubdemo" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <item name="background">@drawable/ab_solid_humhubdemo</item>
+        <item name="backgroundStacked">@drawable/ab_stacked_solid_humhubdemo</item>
+        <item name="backgroundSplit">@drawable/ab_bottom_solid_humhubdemo</item>
+        <item name="progressBarStyle">@style/ProgressBar.Humhubdemo</item>
+    </style>
+
+    <style name="ActionBar.Transparent.Humhubdemo" parent="@style/Widget.AppCompat.ActionBar">
+        <item name="background">@drawable/ab_transparent_humhubdemo</item>
+        <item name="progressBarStyle">@style/ProgressBar.Humhubdemo</item>
+    </style>
+	
+    <style name="PopupMenu.Humhubdemo" parent="@style/Widget.AppCompat.PopupMenu">	
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_humhubdemo</item>	
+    </style>
+	
+    <style name="DropDownListView.Humhubdemo" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:listSelector">@drawable/selectable_background_humhubdemo</item>
+    </style>
+
+    <style name="ActionBarTabStyle.Humhubdemo" parent="@style/Widget.AppCompat.ActionBar.TabView">
+        <item name="android:background">@drawable/tab_indicator_ab_humhubdemo</item>
+    </style>
+	
+    <style name="DropDownNav.Humhubdemo" parent="@style/Widget.AppCompat.Spinner.DropDown.ActionBar">
+        <item name="android:background">@drawable/spinner_background_ab_humhubdemo</item>
+        <item name="android:popupBackground">@drawable/menu_dropdown_panel_humhubdemo</item>
+        <item name="android:dropDownSelector">@drawable/selectable_background_humhubdemo</item>
+    </style>
+    
+    <style name="ProgressBar.Humhubdemo" parent="@style/Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:progressDrawable">@drawable/progress_horizontal_humhubdemo</item>
+    </style>
+    
+    <style name="ActionButton.CloseMode.Humhubdemo" parent="@style/Widget.AppCompat.ActionButton.CloseMode">
+        <item name="android:background">@drawable/btn_cab_done_humhubdemo</item>
+    </style>
+    
+    <!-- this style is only referenced in a Light.DarkActionBar based theme -->
+    <style name="Theme.Humhubdemo.Widget" parent="@style/Theme.AppCompat">
+        <item name="popupMenuStyle">@style/PopupMenu.Humhubdemo</item>
+        <item name="dropDownListViewStyle">@style/DropDownListView.Humhubdemo</item>
+    </style>
+
+</resources>
