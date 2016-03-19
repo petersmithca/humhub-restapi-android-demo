@@ -11,6 +11,10 @@ just reference a local host for development.
 
 This code is provided as is, and no further updates will be made.
 
+## Screenshots:
+![Login](screenshots/login.png) ![menu](screenshots/menu.png)
+![Directory](screenshots/directory.png) ![Posts](screenshots/posts.png)
+
 ## Authors/Module Website
 
 __Module website:__ <https://github.com/petersmithca/humhub-api>  
