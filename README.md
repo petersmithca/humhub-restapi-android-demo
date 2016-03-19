@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a demo android app using the rest api I created at the link above.  It really just lists a directory of users and a list of posts.
+This is a demo android app using the rest api I created at the link above.  It really just lists a directory of users and a list of posts. Android programming is not something I do normally, so many best practices and metholdogies may be out to lunch here.
 
 ## To Use
 
